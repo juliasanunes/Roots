@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Simples</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      .div-inline {
+            width: 185px;
+            height: 300px;
+            display: inline-block;
+            margin: 5px;
+        }
+        .div1 {
+            background-color: magenta;
+        }
+        .div2 {
+            background-color: teal;
+        }
+        .div3 {
+            background-color: teal;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .btn-custom {
+            background-color: #edf1bf97; /* Altere para a cor desejada */
+            color: #fff;
+            padding: 20px;
+            
+        }
+        .btn-custom:hover {
+            background-color: #45a049; /* Cor ao passar o mouse sobre o botão */
+        }
+        header {
+            background-color: #a07b145e;
+            color: #fff;
+            padding: 53px 0;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        header h1 {
+            font-size: 80px; 
+            margin: 0; 
+        }
+        nav {
+            background-color: #a5a985;
+            color: #fff;
+            padding: 8px;
+            text-align: center;
+        }
+        nav a {
+            color: #fbf6f6;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        section {
+            padding: 2px 0; 
+            background-color: #faf9f9;
+
+        }
+      
+      
+        footer {
+            background-color: #a5a985;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Divina</h1>
+    </header>
+    
+    <nav>
+        <div class="btn-group">
+            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Produtos
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+        </div>
+        <div class="btn-group">
+          <button type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Novidades
+          </button>
+          <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+          </ul>
+      </div>
+      <div class="btn-group">
+        <button type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Masrcas
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+    </div>
+
+    </nav>
+
+    <section>
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Celebrando a Negritude (2).png" class="d-block w-100" style="border: none" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Celebrando a Negritude (1).png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Celebrando a Negritude (4).png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+         <div>
+      <div class="div-inline div1" class="card"  >
+  <img src="Design sem nome (15).png" class="card-img-top" alt="...">
+
+  <div class="card-body">
+    <h5 class="card-title">CABELOS</h5>
+    <p class="card-text"></p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<div class="div-inline div2" class="card"  >
+  <img src="Design sem nome (13).png" class="card-img-top" alt="...">
+
+  <div class="card-body">
+    <h5 class="card-title">SKINCARE</h5>
+    <p class="card-text"></p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<div class="div-inline div3" class="card"  >
+  <img src="Design sem nome (14).png" class="card-img-top" alt="...">
+
+  <div class="card-body">
+    <h5 class="card-title">CORPO E BANHO</h5>
+    <p class="card-text"></p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>>
+
+
+
+
+      
+        
+    <footer>
+        <p>© 2024 Meu Site Simples. Todos os direitos reservados.</p>
+    </footer>
+    
+</body>
+</html>
+
